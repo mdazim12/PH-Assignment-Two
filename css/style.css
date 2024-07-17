@@ -7,8 +7,62 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Inter", sans-serif;
 }
 
-h2{
-    font-family:'shape';
+:root {
+    --tomato: rgb(230, 83, 60);
+    --white : rgb(255, 255, 255)
+  
+  }
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+/* Header css */
+.head{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo_item{
+    font-size: 1.8rem;
+    color: var(--tomato);
+}
+.navmenu ul{
+    display: flex;
+    gap: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 7px 0px;
+    border-radius: 35px;
+}
+.nav_item{
+    list-style: none;
+}
+.nav_link{
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 8px 20px;
+    
+}
+.active{
+    background-color: var(--tomato);
+    padding: 7px 20px;
+    border-radius: 35px;
+}
+.nav_link:hover{
+    background-color: var(--tomato);
+    padding: 7px 20px;
+    border-radius: 35px;
 }
