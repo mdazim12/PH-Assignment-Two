@@ -14,6 +14,7 @@
     --tomato: rgb(230, 83, 60);
     --white : rgb(255, 255, 255);
     --dark  : rgba(255, 255, 255, 0.5);
+    --balck : rgb(0, 0, 0);
   
   }
 
@@ -168,4 +169,49 @@
     position: absolute;
     right: -50px;
     top: 100px;
+}
+
+/* Habit Section */
+.habit_section{
+    background-color: var(--balck);
+    padding: 50px 0px;
+    text-align: center;
+}
+.habit_content{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+.habit_title{
+    font-size: 3rem;
+    font-weight: 900;
+    color: var(--white);
+    margin: 5px 0px;
+}
+.habit_des{
+    font-size: 0.9rem;
+    color: var(--dark);
+    font-weight: 400;
+    line-height: 24px;
+}
+.habit_all_card{
+    margin: 20px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.habit_card img{
+    border-radius: 50%;
+    border: 3px solid rgb(68, 68, 68);
+    margin: 5px;
+}
+.habit_card_title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--white);
+    margin-top: 10px;
+}
+.habit_card_des{
+    font-size: 0.rem;
+    color: var(--dark);
+    padding: 5px;
 }
