@@ -12,7 +12,8 @@
 
 :root {
     --tomato: rgb(230, 83, 60);
-    --white : rgb(255, 255, 255)
+    --white : rgb(255, 255, 255);
+    --dark  : rgba(255, 255, 255, 0.5);
   
   }
 
@@ -23,7 +24,10 @@
 
 /* Header css */
 .head{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    background: linear-gradient(180deg, #171717, #292929, #171717);
+
+
 }
 .navbar{
     display: flex;
@@ -65,4 +69,103 @@
     background-color: var(--tomato);
     padding: 7px 20px;
     border-radius: 35px;
+}
+
+
+/* Banner Section */
+
+.banner_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.banner_content{
+    width: 40%;
+}
+.banner_title{
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--white);
+}
+.banner_higlit{
+    font-family: 'shape';
+    font-weight: 400;
+    font-size: 5rem;
+}
+.banner_des{
+    color: var(--dark);
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+}
+.banner_btn{
+    margin: 15px 0px;
+}
+
+.banner_btn_one{
+    font-size: 1.1rem;
+    color: var(--white);
+    padding: 12px 32px;
+    background-color: var(--tomato);
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+    border-radius: 42px;
+}
+.banner_btn_two{
+    font-size: 1.1rem;
+    color: var(--white);
+    padding: 12px 32px;
+    border: none;
+    border-radius: 42px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);;
+}
+.banner_img{
+    position: relative;
+}
+.banner_img img{
+    width: 100%;
+    text-align: center;
+}
+
+.banner_shape_one,.banner_shape_two{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    width: 170px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.banner_shape_icon i{
+    font-size: 35px;
+    color: var(--tomato);
+}
+.banner_shape_title{
+    font-size: 1.4rem;
+    color: var(--white);
+}
+
+.banner_shape_des{
+    font-size: 1rem;
+    color: var(--dark);
+    padding: 5px 0px;
+}
+.banner_shape_title_two{
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.banner_shape_one{
+    position: absolute;
+    left: -100px;
+    bottom: 100px;
+}
+.banner_shape_two{
+    position: absolute;
+    right: -50px;
+    top: 100px;
 }
