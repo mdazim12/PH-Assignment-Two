@@ -15,6 +15,7 @@
     --white : rgb(255, 255, 255);
     --dark  : rgba(255, 255, 255, 0.5);
     --balck : rgb(0, 0, 0);
+    --light-black: rgb(34, 34, 34);
   
   }
 
@@ -214,4 +215,42 @@
     font-size: 0.rem;
     color: var(--dark);
     padding: 5px;
+}
+
+/* Run section */
+.run{
+    background-color: var(--balck);
+    padding: 50px 0px;
+}
+
+.run_all_content{
+    background-color: var(--light-black);
+    padding: 50px 50px;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.run_content{
+    width: 50%;
+}
+
+.run_title{
+    color: var(--white);
+    font-size: 2.6rem;
+    padding: 10px 0px;
+}
+.run_des{
+    color: var(--dark);
+    font-size: 0.9rem;
+    padding-bottom: 10px;
+    line-height: 24px;
+}
+.run_img{
+    text-align: end;
+}
+.run_img img{
+    width: 50%;
+    border-radius: 18px;
+  
 }
