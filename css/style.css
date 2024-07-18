@@ -254,3 +254,92 @@
     border-radius: 18px;
   
 }
+
+/*********  Training CSS **************/
+.training{
+    background-color: var(--balck);
+    padding: 50px 0px;
+}
+.train_card_one,
+.train_card_two,
+.train_card_three,
+.train_card_four,
+.train_card_five,
+.train_card_six
+{
+    display: flex;
+    flex: 1;
+}
+
+.train_card_content{
+    position: relative;
+    width: 100%;
+}
+
+.train_card_content img{
+    width: 100%;
+    display: block;
+    height: 240px;
+   
+}
+
+
+
+
+.train_card_title {
+    color: white;
+    font-size: 0.9rem;
+    padding: 20px;
+}
+
+.train_card_one{
+    grid-area: card_one;
+}
+.train_card_two{
+    grid-area: card_two;
+}
+.train_card_three{
+    grid-area: card_three;
+}
+.train_card_four{
+    grid-area: card_four;
+}
+.train_card_five{
+    grid-area: card_five;
+}
+.train_card_six{
+    grid-area: card_six;
+}
+
+
+.train_all_card {
+    display: grid;
+    grid-template-areas:
+       "card_one    card_two    card_two    card_two    card_two   card_two     card_three "
+       "card_four   card_four   card_four   card_four   card_five   card_six    card_six"
+       ;
+}
+
+.card_one_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(6, 255, 210, 0.5);
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+
+.card_two_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 0, 0.3);
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
