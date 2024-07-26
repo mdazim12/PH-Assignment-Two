@@ -391,3 +391,21 @@
     align-items: end;
 }
 
+/********** BMI SECTION CSS **********************/
+.bmi_section{
+    background-color: var(--balck);
+    padding: 50px 0px;
+}
+.bmi_content_area{
+    width: 50%;
+    margin: 0 auto;
+}
+.bmi_title{
+    font-size: 2.6rem;
+    color: var(--white);
+}
+.bmi_des{
+    color: var(--dark);
+    font-size: 0.9rem;
+    padding: 10px 0px;
+}
