@@ -394,11 +394,11 @@
 /********** BMI SECTION CSS **********************/
 .bmi_section{
     background-color: var(--balck);
-    padding: 50px 0px;
 }
 .bmi_content_area{
     width: 50%;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 .bmi_title{
     font-size: 2.6rem;
@@ -445,11 +445,15 @@ input,select,option {
     font-size: 1rem;
     outline: none;
 }
-.height, .weight,.age,.sex{
+.height, .weight,.age{
     margin: 10px 5px;
+    width: 40%;
+}
+.sex{
+    width: 47%;
 }
 .select{
-    width: 100%;
+    width: 97%;
 }
 select option {
     background-color: var(--light-black);
@@ -460,6 +464,8 @@ select{
     margin: 10px 5px;
 }
 .bmi_table{
-    margin: 30px 0px;
-    
+    margin: 30px 0px; 
 }
+
+
+/********** TEAM SECTION CSS **********************/
