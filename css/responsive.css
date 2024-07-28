@@ -1,3 +1,38 @@
-h1{
-    background-color: aqua;
+
+
+@media only screen and (max-width: 592px) {
+    .banner_content{
+        width: 100%;
+    }
+    .banner_section{
+        display: block;
+    }
+    .banner_title,.banner_higlit{
+        font-size: 2rem;
+    }
+    .banner_section{
+        padding: 50px 0px;
+    }
+    
+    .hamber_iocn i{
+        color: white;
+    }
+    .navmenu{
+        display: none;
+    }
+    .hamber_iocn{
+        display: block;
+    }
+    .banner_shape_one{
+        left: 0px;
+    }
+    .banner_shape_two{
+        right: -20px;
+
+    }
+    .banner_img img{
+        width: 80%;
+        text-align: center;
+    }
 }
+
