@@ -466,7 +466,42 @@ select{
 .bmi_table{
     margin: 30px 0px; 
 }
+/********** WORKOUT SECTION CSS **********************/
 
+.workout{
+    padding: 50px 0px;
+    background-color: var(--balck);
+}
+
+.all_workout{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.workout_img {
+    width: 45%;
+}
+.workout_img img{
+    width: 100%;
+    border-radius: 18px;
+}
+.list_items{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 10px 0px;
+}
+.list_items i{
+    color: var(--tomato);
+}
+.list_text{
+    font-size: 1rem;
+    color: var(--dark);
+}
+
+.work_btn{
+    margin: 20px 0px;
+}
 
 /********** TEAM SECTION CSS **********************/
 .team_section{
@@ -514,4 +549,53 @@ select{
     padding: 20px;
     border-radius: 18px;
     margin-top: 30px;
+}
+
+    /********** FOOTER SECTION ***********/
+
+.footer{
+    background-color: var(--light-black);
+    padding-top: 50px;
+}
+.footer_logo_section a{
+    text-decoration: none;
+}
+.footer_logo{
+    color: var(--tomato);
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+.footer_des{
+    color: var(--dark);
+    font-size: 0.9rem;
+}
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer_list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer_col_title{
+    color: var(--white);
+    font-size: 1.5rem;
+    padding: 10px 0px;
+}
+.footer_col_link li{
+    list-style-type: none;
+    padding: 3px 0px;
+}
+.footer_col_link a{
+    text-decoration: none;
+    color: var(--dark);
+    font-size: 1rem;
+}
+.footer_copyright p{
+    color: var(--dark);
+    text-align: center;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
 }
