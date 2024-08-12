@@ -34,5 +34,42 @@
         width: 80%;
         text-align: center;
     }
+
+    /* Habit Section */
+
+    .habit_content{
+        width: 100%;
+    }
+    .habit_title{
+        font-size: 1.8rem;
+    }
+    .habit_all_card{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .habit_card_title,.habit_card_des{
+        width: 60%;
+        margin: auto;
+    }
+    .habit_card{
+        margin: 15px 0px;
+    }
+    .run_content{
+        width: 100%;
+    }
+    .run_all_content{
+        display: block;
+        padding: 20px;
+        
+    }
+    .run_title{
+        font-size: 1.8rem;
+    }
+    .run_img {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .run_img img{
+        width: 100%;
+    }
 }
 

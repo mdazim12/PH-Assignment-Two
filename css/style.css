@@ -255,6 +255,8 @@
 .run_img img{
     width: 50%;
     border-radius: 18px;
+    object-fit: none;
+    object-position: 66% 30%;
   
 }
 
