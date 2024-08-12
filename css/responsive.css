@@ -91,6 +91,7 @@
     }
     .workout_img{
         width: 100%;
+        padding-bottom: 20px;
     }
     .team_content{
         width: 85%;
@@ -101,6 +102,9 @@
     }
     .footer_container,.footer_list{
         grid-template-columns: repeat(1,1fr);
+    }
+    .bmi_content_area{
+        padding-top: 20px;
     }
 }
 
