@@ -90,7 +90,7 @@
         display: block;
     }
     .workout_img{
-        padding: 30px 0px;
+        width: 100%;
     }
     .team_content{
         width: 85%;
@@ -101,6 +101,62 @@
     }
     .footer_container,.footer_list{
         grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* Responsive for table */
+
+@media screen and (min-width: 592px) and (max-width:992px){
+    .banner_section{
+        display: block;
+        padding: 50px 0px;
+
+    }
+    .banner_content{
+        width: 85%;
+    }
+    .banner_img {
+        width:60% ;
+        margin: auto;
+    } 
+    .habit_content{
+        width: 85%;
+    }
+    .habit_all_card{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .habit_card{
+        padding: 10px 0px;
+    }
+    .run_content{
+        width: 100%;
+    }
+    .run_img img{
+        width: 80%;
+    }
+    .train_card_content img{
+        height: 160px;
+    }
+    .bmi_content_area{
+        width: 85%;
+    }
+    .bmi_all_box{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .height, .weight,.age{
+        width: 42%;
+    }
+    .workout_img{
+        width: 100%;
+    }
+    .team_content{
+        width: 85%;
+    }
+    .footer_container{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .footer_logo_section{
+        padding: 20px 0px;
     }
 }
 
